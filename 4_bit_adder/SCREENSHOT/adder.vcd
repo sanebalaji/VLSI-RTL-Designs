@@ -1,0 +1,123 @@
+$date
+	Fri May 29 15:04:05 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_adder $end
+$var wire 4 ! s [3:0] $end
+$var wire 1 " cout $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % cin $end
+$scope module uut $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 1 % cin $end
+$var wire 4 ( s [3:0] $end
+$var wire 1 ) n3 $end
+$var wire 1 * n2 $end
+$var wire 1 + n1 $end
+$var wire 1 " cout $end
+$scope module uut1 $end
+$var wire 1 , a $end
+$var wire 1 - b $end
+$var wire 1 % cin $end
+$var reg 1 + cout $end
+$var reg 1 . s $end
+$upscope $end
+$scope module uut2 $end
+$var wire 1 / a $end
+$var wire 1 0 b $end
+$var wire 1 + cin $end
+$var reg 1 * cout $end
+$var reg 1 1 s $end
+$upscope $end
+$scope module uut3 $end
+$var wire 1 2 a $end
+$var wire 1 3 b $end
+$var wire 1 * cin $end
+$var reg 1 ) cout $end
+$var reg 1 4 s $end
+$upscope $end
+$scope module uut4 $end
+$var wire 1 5 a $end
+$var wire 1 6 b $end
+$var wire 1 ) cin $end
+$var reg 1 " cout $end
+$var reg 1 7 s $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+b0 (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#10000
+17
+1)
+1*
+04
+1+
+b1000 !
+b1000 (
+01
+1-
+13
+1,
+1/
+b101 $
+b101 '
+b11 #
+b11 &
+#20000
+03
+12
+b1 $
+b1 '
+b111 #
+b111 &
+#30000
+1"
+b0 !
+b0 (
+07
+15
+b1111 #
+b1111 &
+#40000
+13
+0,
+02
+1%
+b101 $
+b101 '
+b1010 #
+b1010 &
+#50000
