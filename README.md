@@ -1,35 +1,22 @@
 # VLSI RTL Designs
 
-Collection of Verilog HDL RTL designs, testbenches, and simulation waveforms.
+Collection of Verilog HDL RTL designs, verification testbenches, and simulation waveforms.
 
 ## Projects
 
 | Project | Description |
-|---|---|
-| SR Latch | NAND based SR latch using Verilog |
+|----------|-------------|
+| Cache Controller | Direct-Mapped Cache Controller with Cache Hit, Cache Miss, Write Hit, Dirty Bit Handling, Write-Back Policy, Main Memory Interface, FSM Control Logic, and GTKWave Verification |
+| Asynchronous FIFO | Dual-Clock FIFO with Gray Code Pointers, Clock Domain Crossing (CDC), Full/Empty Detection, Synchronizers, and Comprehensive Verification |
 
 ## Tools Used
+
 - Verilog HDL
 - Icarus Verilog
 - GTKWave
 - VS Code
+- Git
+- GitHub
 
-## Topics Covered
-- Combinational Logic
-- Sequential Logic
-- FSM Design
-- RTL Coding
-- Testbench Writing
-- Waveform Analysis
 
-## Upcoming Projects
-- D Flip-Flop
-- JK Flip-Flop
-- Counters
-- Shift Registers
-- FSMs
-- UART
-- FIFO
 
----
-Learning VLSI RTL Design step by step 🚀
