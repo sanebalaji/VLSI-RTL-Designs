@@ -1,0 +1,192 @@
+$date
+	Wed Jun 24 18:07:03 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_cache_controller_writeback $end
+$var wire 1 ! tag_write_en $end
+$var wire 3 " state [2:0] $end
+$var wire 1 # mem_write $end
+$var wire 1 $ mem_read $end
+$var wire 1 % dirty_write_en $end
+$var wire 1 & data_write_en $end
+$var wire 1 ' cpu_ready $end
+$var reg 1 ( clk $end
+$var reg 1 ) cpu_req $end
+$var reg 1 * cpu_write $end
+$var reg 1 + dirty $end
+$var reg 1 , hit $end
+$var reg 1 - rst $end
+$scope module dut $end
+$var wire 1 ( clk $end
+$var wire 1 ) cpu_req $end
+$var wire 1 * cpu_write $end
+$var wire 1 + dirty $end
+$var wire 1 , hit $end
+$var wire 1 - rst $end
+$var reg 1 ' cpu_ready $end
+$var reg 1 & data_write_en $end
+$var reg 1 % dirty_write_en $end
+$var reg 1 $ mem_read $end
+$var reg 1 # mem_write $end
+$var reg 3 . next_state [2:0] $end
+$var reg 3 / state [2:0] $end
+$var reg 1 ! tag_write_en $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 /
+b0 .
+1-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+b0 "
+0!
+$end
+#5000
+1(
+#10000
+b1 .
+0(
+1)
+0-
+#15000
+b11 .
+b1 "
+b1 /
+1(
+#20000
+0(
+#25000
+1$
+b101 .
+b11 "
+b11 /
+1(
+#30000
+0(
+#35000
+1&
+1!
+0$
+b110 .
+b101 "
+b101 /
+1(
+#40000
+0(
+#45000
+1'
+0&
+0!
+b0 .
+b110 "
+b110 /
+1(
+#50000
+0(
+#55000
+0'
+b1 .
+b0 "
+b0 /
+1(
+#60000
+0(
+1,
+1*
+#65000
+b10 .
+b1 "
+b1 /
+1(
+#70000
+0(
+#75000
+1%
+1&
+b110 .
+b10 "
+b10 /
+1(
+#80000
+0(
+#85000
+1'
+0%
+0&
+b0 .
+b110 "
+b110 /
+1(
+#90000
+0(
+1+
+0,
+0*
+#95000
+0'
+b1 .
+b0 "
+b0 /
+1(
+#100000
+0(
+#105000
+b11 .
+b1 "
+b1 /
+1(
+#110000
+0(
+#115000
+1$
+b100 .
+b11 "
+b11 /
+1(
+#120000
+0(
+#125000
+1#
+0$
+b101 .
+b100 "
+b100 /
+1(
+#130000
+0(
+#135000
+1&
+1!
+0#
+b110 .
+b101 "
+b101 /
+1(
+#140000
+0(
+#145000
+1'
+0&
+0!
+b0 .
+b110 "
+b110 /
+1(
+#150000
+0(
